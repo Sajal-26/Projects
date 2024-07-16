@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 import speech_recognition as sr
 
-key = "AIzaSyD_vQSjY8Z5tOaDq6HGf5fXnnITMjDr_ys"
+key = ""
 genai.configure(api_key=key)
 
 def speechreco() -> str:
